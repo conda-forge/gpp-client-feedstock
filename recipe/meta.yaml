@@ -1,5 +1,5 @@
 {% set name = "gpp-client" %}
-{% set version = "25.7.8" %}
+{% set version = "25.8.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gpp_client-{{ version }}.tar.gz
-  sha256: 5635fb7bbfd5b7e4b0eb94ae362eb93595730991b8aab7eda5853e0daa8e745a
+  sha256: 0b643416e0be17234c70155b34103f663193d15bd4afbd191e84e329ceae2ae1
 
 build:
   entry_points:
