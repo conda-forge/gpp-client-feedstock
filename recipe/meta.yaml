@@ -1,6 +1,5 @@
 {% set name = "gpp-client" %}
 {% set version = "25.10.4" %}
-{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -30,8 +29,8 @@ requirements:
     - httpx >=0.23
     - pydantic >=2.0.0
     - toml >=0.10
-    - typer >=0.16.0
-    - websockets >=14.0
+    - typer >=0.18.0
+    - websockets >=14.2
 
 test:
   imports:
