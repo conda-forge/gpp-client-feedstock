@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - aiohttp >=3.13.3
+    - aiohttp >=3.13.4
     - beautifulsoup4 >=4.11.0
     - graphql-core >=3.2.0
     - httpx >=0.23
@@ -31,6 +31,7 @@ requirements:
     - toml >=0.10
     - typer >=0.21.1
     - websockets >=14.2
+    - pydantic_settings >=2.13.1
 
 test:
   imports:
