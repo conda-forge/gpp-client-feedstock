@@ -42,6 +42,8 @@ test:
   requires:
     - python {{ python_min }}
     - pip
+    - hatchling
+    
 
 about:
   summary: Gemini Program Platform client.
