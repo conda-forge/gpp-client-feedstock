@@ -31,7 +31,7 @@ requirements:
     - toml >=0.10
     - typer >=0.21.1
     - websockets >=14.2
-    - pydantic-settings>=2.13.1
+    - pydantic-settings >=2.13.1
 
 test:
   imports:
