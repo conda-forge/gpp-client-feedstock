@@ -1,5 +1,5 @@
 {% set name = "gpp-client" %}
-{% set version = "26.5.0" %}
+{% set version = "26.7.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gpp_client-{{ version }}.tar.gz
-  sha256: c1ddd1c9191c9f60a48d7c3b8f4f0baf60327753cfee5542fdf0bb91a34826d8
+  sha256: 2c83b2ab529460450cebe819d53986c8554a035cdd7ae6f1682ad70c7b38f49e
 
 build:
   entry_points:
@@ -32,6 +32,7 @@ requirements:
     - typer >=0.21.1
     - websockets >=14.2
     - pydantic-settings >=2.13.1
+    - click >=8.3.1
 
 test:
   imports:
