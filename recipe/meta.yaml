@@ -1,13 +1,13 @@
 {% set name = "gpp-client" %}
-{% set version = "26.7.3" %}
+{% set version = "26.9.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gpp_client-{{ version }}.tar.gz
-  sha256: 2c83b2ab529460450cebe819d53986c8554a035cdd7ae6f1682ad70c7b38f49e
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/gpp_client-{{ version }}.tar.gz
+  sha256: db90e83ec79786cd462973d4a5996fb9f72e68ea24e18e9e43529c22e9ec7e47
 
 build:
   entry_points:
