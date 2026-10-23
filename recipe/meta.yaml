@@ -1,5 +1,5 @@
 {% set name = "gpp-client" %}
-{% set version = "26.10.6" %}
+{% set version = "26.10.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/gpp_client-{{ version }}.tar.gz
-  sha256: 68b490ae0efec160c9aae82be22db0bb9fc91ab9eccbcb7c64ab332288b1e04f
+  sha256: 14796094461d9caad184e830a2a07065fb7a013049085581ad85e51fe3fd99af
 
 build:
   entry_points:
     - gpp = gpp_client.cli.cli:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 2
+  number: 0
 
 requirements:
   host:
